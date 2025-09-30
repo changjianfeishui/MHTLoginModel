@@ -1,0 +1,6 @@
+framework module MHTAuthModel {
+  umbrella header "MHTAuthModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

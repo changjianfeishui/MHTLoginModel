@@ -1,0 +1,107 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - GBEncodeTool (0.1.0):
+    - GBEncodeTool/GTMBase64 (= 0.1.0)
+  - GBEncodeTool/GTMBase64 (0.1.0)
+  - HBRSAHandler (0.1.0):
+    - OpenSSL-Universal (~> 1.1.1900)
+  - MHTAuthModel (0.1.1):
+    - MHTLoginModelInterface
+    - MHTPublicParameters
+    - MHTRunTimeEnvironment
+    - MHTSecurityService
+    - OpenSSL-Universal (~> 1.1.1900)
+    - YYModel
+  - MHTHTTPService (0.1.0):
+    - AFNetworking
+    - MHTAuthModel
+    - MHTLoginModelInterface
+    - MHTPublicParameters
+  - MHTLoginModel (0.1.0):
+    - MHTHTTPService
+    - MHTRunTimeEnvironment
+    - MHTUserModelInterface
+    - SVProgressHUD
+    - YYModel
+  - MHTLoginModelInterface (0.1.1):
+    - MHTRouter
+  - MHTPublicParameters (0.1.1):
+    - AFNetworking
+    - MHTRunTimeEnvironment
+  - MHTRouter (0.1.0)
+  - MHTRunTimeEnvironment (0.1.4)
+  - MHTSecurityService (0.1.8):
+    - GBEncodeTool
+    - HBRSAHandler
+  - MHTUserInfo (0.1.2):
+    - YYModel
+  - MHTUserModelInterface (0.1.2):
+    - MHTRouter
+    - MHTUserInfo
+  - OpenSSL-Universal (1.1.2301)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - MHTLoginModel (from `../`)
+
+SPEC REPOS:
+  https://github.com/changjianfeishui/mht-specs:
+    - GBEncodeTool
+    - HBRSAHandler
+    - MHTAuthModel
+    - MHTHTTPService
+    - MHTLoginModelInterface
+    - MHTPublicParameters
+    - MHTRouter
+    - MHTRunTimeEnvironment
+    - MHTSecurityService
+    - MHTUserInfo
+    - MHTUserModelInterface
+  trunk:
+    - AFNetworking
+    - OpenSSL-Universal
+    - SVProgressHUD
+    - YYModel
+
+EXTERNAL SOURCES:
+  MHTLoginModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  GBEncodeTool: 960907780e9865870ef2e5d30ee84a02618a8d6f
+  HBRSAHandler: 45051187c2030b96bc39b4e0c15c0404368d3207
+  MHTAuthModel: 313b1ab94f22a92743f6df16e2a1d6592f55ddc7
+  MHTHTTPService: 26929e2a89163535c22af9f77f4fe5a0238e4279
+  MHTLoginModel: 9cde45689e7657b58f54a77122939ad8cb7bfee9
+  MHTLoginModelInterface: be1bf0a31a2da645a2b4273f633d544c55ef2ee4
+  MHTPublicParameters: b9011b389bbbc690b0ecf2dcf39fe974f6f04c60
+  MHTRouter: f848a0499296a116b466c8e10037c9d502e14753
+  MHTRunTimeEnvironment: a9090675fc0f6464b27caf3809aabcf0f98b0871
+  MHTSecurityService: 88daa8f71f567c1dc5145d0d0d384539ff917f44
+  MHTUserInfo: 2eae1d51a2efae99f2256412c03f04d4bd727566
+  MHTUserModelInterface: eaa53dbd837735c9b3b3905ceb6f6b988e4b3bbd
+  OpenSSL-Universal: ca89c20240633a77c776082ba76b7d90f992bf77
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 50e8ce161c3408b5207bdfa2ecc74500aa1ca2c6
+
+COCOAPODS: 1.16.2

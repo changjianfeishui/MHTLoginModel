@@ -1,0 +1,6 @@
+framework module MHTPublicParameters {
+  umbrella header "MHTPublicParameters-umbrella.h"
+
+  export *
+  module * { export * }
+}

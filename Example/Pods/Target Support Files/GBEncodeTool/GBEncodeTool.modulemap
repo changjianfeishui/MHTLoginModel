@@ -1,0 +1,6 @@
+framework module GBEncodeTool {
+  umbrella header "GBEncodeTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

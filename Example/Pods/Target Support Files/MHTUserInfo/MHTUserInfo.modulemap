@@ -1,0 +1,6 @@
+framework module MHTUserInfo {
+  umbrella header "MHTUserInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

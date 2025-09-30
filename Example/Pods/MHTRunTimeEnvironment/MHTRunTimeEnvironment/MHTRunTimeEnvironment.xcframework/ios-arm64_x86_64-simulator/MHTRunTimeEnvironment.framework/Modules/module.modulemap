@@ -1,0 +1,6 @@
+framework module MHTRunTimeEnvironment {
+  umbrella header "MHTRunTimeEnvironment-umbrella.h"
+
+  export *
+  module * { export * }
+}

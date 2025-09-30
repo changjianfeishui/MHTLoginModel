@@ -28,15 +28,21 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/changjianfeishui/MHTLoginModel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'MHTLoginModel/Classes/**/*'
-  
+#  s.source_files = 'MHTLoginModel/Classes/**/*'
+  s.ios.vendored_frameworks = 'MHTLoginModel/MHTLoginModel.xcframework'
+
   # s.resource_bundles = {
   #   'MHTLoginModel' => ['MHTLoginModel/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'MHTRunTimeEnvironment'
+   s.dependency 'MHTHTTPService'
+   s.dependency 'SVProgressHUD'
+   s.dependency 'YYModel'
+   s.dependency 'MHTUserModelInterface'
+   
 end

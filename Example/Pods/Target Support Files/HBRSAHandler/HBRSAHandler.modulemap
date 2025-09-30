@@ -1,0 +1,6 @@
+framework module HBRSAHandler {
+  umbrella header "HBRSAHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "MHTLoginModel",
+  "version": "0.1.0",
+  "summary": "A short description of MHTLoginModel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/changjianfeishui/MHTLoginModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "changjianfeishui": "329735967@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/changjianfeishui/MHTLoginModel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "ios": {
+    "vendored_frameworks": "MHTLoginModel/MHTLoginModel.xcframework"
+  },
+  "dependencies": {
+    "MHTRunTimeEnvironment": [
+
+    ],
+    "MHTHTTPService": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "MHTUserModelInterface": [
+
+    ]
+  }
+}

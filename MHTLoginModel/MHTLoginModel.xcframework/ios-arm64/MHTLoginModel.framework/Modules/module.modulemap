@@ -1,0 +1,6 @@
+framework module MHTLoginModel {
+  umbrella header "MHTLoginModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

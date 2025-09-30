@@ -1,0 +1,6 @@
+framework module MHTHTTPService {
+  umbrella header "MHTHTTPService-umbrella.h"
+
+  export *
+  module * { export * }
+}
