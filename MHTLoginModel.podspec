@@ -44,5 +44,5 @@ TODO: Add long description of the pod here.
    s.dependency 'SVProgressHUD'
    s.dependency 'YYModel'
    s.dependency 'MHTUserModelInterface'
-   
+   s.dependency 'MHTUserInfo'
 end
